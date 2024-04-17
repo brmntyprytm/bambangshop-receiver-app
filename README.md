@@ -102,3 +102,15 @@ This is the place for you to write reflections:
 #### Rust does not allow us to mutate the content of a static variable because it is not thread-safe. Rust is a systems programming language that emphasizes safety and performance. Rust does not allow us to mutate the content of a static variable because it can cause
 
 #### Reflection Subscriber-2
+
+1. Have you explored things outside of the steps in the tutorial, for example: src/lib.rs? If not, explain why you did not do so. If yes, explain things that you have learned from those other parts of code.
+
+#### I have explored things outside of the steps in the tutorial. I have explored the src/lib.rs file to understand how the Rocket web framework works. I have learned that the Rocket web framework is a web framework for Rust that makes it easy to build web applications. Rocket uses Rust's type system to ensure that your web application is safe and fast. Rocket provides a lot of features that make it easy to build web applications, such as routing, request handling, and response generation.
+
+2. Since you have completed the tutorial by now and have tried to test your notification system by spawning multiple instances of Receiver, explain how Observer pattern eases you to plug in more subscribers. How about spawning more than one instance of Main app, will it still be easy enough to add to the system?
+
+#### The Observer pattern eases you to plug in more subscribers because it allows you to add new subscribers without modifying the existing code. You can add new subscribers by creating a new instance of the Subscriber struct and registering it with the Publisher. The Observer pattern makes it easy to add new subscribers because it decouples the Publisher from the Subscribers. You can add new subscribers without modifying the Publisher or the existing Subscribers.
+
+3. Have you tried to make your own Tests, or enhance documentation on your Postman collection? If you have tried those features, tell us whether it is useful for your work (it can be your tutorial work or your Group Project).
+
+#### I have tried to make my own Tests using Postman. I have created a new test case that tests the subscribe endpoint of the BambangShop Receiver. I have also enhanced the documentation on my Postman collection by adding more detailed descriptions of the endpoints. I have found that making my own Tests and enhancing the documentation on my Postman collection is useful for my work because it helps me to test my code and document my API endpoints.
